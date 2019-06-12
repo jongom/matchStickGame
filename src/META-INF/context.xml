@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Context copyXML="true" unpackWAR="true">
-  <Valve className="org.apache.catalina.valves.rewrite.RewriteValve"/>
-</Context>
