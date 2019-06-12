@@ -1,0 +1,14 @@
+// component css goes here
+$desk_background : '/assets/img/desk_background.jpg';
+@mixin background($imgpath,$position:0 0,$repeat: no-repeat) {
+    background: {
+        image: url($imgpath);
+        position: $position;
+        repeat: $repeat;
+    }
+}
+
+.desk-container{
+    @include background($desk_background, center center, repeat);
+    height: 100%;
+}

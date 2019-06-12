@@ -1,0 +1,9 @@
+<div class="d-flex align-items-center justify-content-center h-100">
+<div class="container" [@zoom]="menuItems.length">
+    <div class="row">
+      <div class="col-sm-4 mb-4" *ngFor="let menu of menuItems">
+        <app-card-link [roles]="menu.roles" [title]="menu.title" [img]="menu.img" [icon]="menu.icon" [routerLink]="menu.routerLink"></app-card-link>
+      </div>
+    </div>
+  </div>
+</div>
